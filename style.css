@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif ;  
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: transparent;
+    transition: 0.6s;
+}
+
+.sticky .navbar{
+    background-color: #323232;
+    transition: 0.6s;
+}
+
+.navbar ul li .nav-link{
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: #0d6efd;
+}
+
+
+
+
+#profil{
+    min-height: 100vh ;
+    background: url(asset/bg1.png);  
+    background-position: center center; 
+    background-size: cover;
+}
+
+.profile-context{
+    margin-left: 120px;
+}
+
+.profile-text{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.job-text{
+    font-weight: 320;
+    font-size: 24px;
+}
+
+.profile-img{
+    margin-right: 120px;
+}
+
+#about{
+    min-height: 100vh;
+    background: url(asset/bg2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.title-about {
+    font-weight: 560;
+    font-size: 38px;
+}
+
+.desc-about{
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.container-about{
+    width: 100%;
+}
+
+.card-about{
+    background: #323232;
+}
+
+.div{
+    display: block;
+    width: 3.6px;
+    height: 146px;
+    margin: 0 16px;
+    background: black;
+}
+
+.container-about{
+    gap: 120px;
+}
+
+.box-about{
+    padding: 16px;
+}
+
+#project{
+    min-height: 100vh;
+    background: #121212;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.title-project{
+    font-weight: 560;
+    font-size: 38px;
+}
+
+.text-project{
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+
+.card-project{
+    height: 180px;
+    background-color: #323232;
+}
+
+#faq{
+    min-height: 100vh;
+    background: url(asset/bg3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.title-faq{
+    font-weight: 560;
+    font-size: 38px;
+    margin-bottom: 3rem;
+}
+
+.accordion-body{
+    background: #323232;
+}
+
+#gallery{
+    min-height: 100vh;
+    background: #121212;
+}
+
+.title-gallery{
+    font-weight: 560;
+    font-size: 38px;
+}
+
+#footer{
+    min-height: 40vh;
+    background: #323232;
+}
+
+.footer-social a{
+    color: black;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 6px 15px;
+    margin: 10px;
+}
+
+.copyright-text{
+    padding: 15px;
+}
+
+.copyright-text strong{
+    font-size: 24px;
+}
+
+.footer-social a:hover{
+    background: #121212;
+}
+
+.footer-social a:hover i{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
