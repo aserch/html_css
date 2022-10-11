@@ -30,7 +30,7 @@
 
 #profil{
     min-height: 100vh ;
-    background: url(asset/bg1.png);  
+    background: url(/asset/bg1.png);  
     background-position: center center; 
     background-size: cover;
 }
@@ -55,7 +55,7 @@
 
 #about{
     min-height: 100vh;
-    background: url(asset/bg2.png);
+    background: url(/asset/bg2.png);
     background-size: cover;
     background-position: center;
 }
@@ -123,7 +123,7 @@
 
 #faq{
     min-height: 100vh;
-    background: url(asset/bg3.png);
+    background: url(/asset/bg3.png);
     background-size: cover;
     background-position: center;
 }
